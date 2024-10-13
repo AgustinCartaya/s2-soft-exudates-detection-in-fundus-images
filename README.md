@@ -1,1 +1,3 @@
-# s2-soft-exudates-detection-in-fundus-images
+# Soft Exudates Detection in Fundus Images
+
+This project introduces a comprehensive approach for the early detection of diabetic retinopathy through the identification of soft exudates (SEx) in fundus images. The process begins with preprocessing to enhance image quality, addressing challenges like variable exudate appearance and low contrast. Additionally, an innovative optical disk removal technique has been implemented to eliminate potential false positives. Then, a two-tiered segmentation strategy is employed: basic segmentation isolates potential SEx areas, while advanced segmentation refines these regions for more precise analysis. Subsequently, feature extraction is performed, extracting key characteristics from the segmented areas to accurately distinguish SEx from other retinal lesions. Finally, sophisticated machine learning algorithms are applied for the classification of Sex.
